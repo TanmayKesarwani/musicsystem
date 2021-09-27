@@ -6,7 +6,46 @@
 
 .app {
   margin: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .header {
+  background-color: blue;
+  color: white;
+  width: 90vw;
+  height: 50px;
+}
+.title {
+  display: inline-block;
+  width: 90%;
+  height: 50px;
+}
+.music_system {
+  text-align: center;
+  font-size: 2rem;
+}
+.signout {
+  height: 100%;
+  border: blue;
+  width: 10%;
+  background-color: blue;
+  color: white;
+  float: right;
+}
+/* .search {
+  display: flex; 
+  justify-content: center;
+  color: green;
+  align-items: center;
+  width: 80%;
+  height: 50px;
+} */
+
+.musicField {
+  width: 80vw;
+  height: 60px;
+  background-color: blue;
 }
